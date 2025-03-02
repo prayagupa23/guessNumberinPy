@@ -15,9 +15,9 @@ while(1):
         print("Yippee! Number Guessed correctly.\n")
         break
     elif guessNumber<num:
-        print("Too Low! get up dawg, guess again.\n")
+        print("Low! get up dawg, guess again.\n")
     elif guessNumber>num:
-        print("Too high! take a slight dig dawg.\n")
-    elif abs(num-guessNumber)<=5:
+        print("High! take a slight dig dawg.\n")
+    elif abs(guessNumber-num)<=5:
         print("You are close! Keep trying.\n")
-print("End\n")
+print("End\n")#num is 25 and the guess is 27 so 27-25>=5 or guess is 23 so num-guess<=5
