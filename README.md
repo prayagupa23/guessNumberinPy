@@ -1,1 +1,1 @@
-A Number Guessor in Python.
+A Number Guesser in Python.
