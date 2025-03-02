@@ -2,7 +2,7 @@ import random
 #generate random numbers by importing the 'random' module in python.
 num = random.randint(1,50)
 
-print("-----Number Guessor-----")
+print("-----Number Guesser-----")
 print("Rules:\n")
 print("1.User enters a number in a specified range.\n")
 print("2.The number generated randomly is checked if it matches the user's input\n")
